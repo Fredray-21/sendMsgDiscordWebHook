@@ -1,13 +1,20 @@
 # message-anonyme-discord
 
-Cette application permet d'envoyer un message anonymement sur un serveur discord.
+Cette application permet d'envoyer un message anonymement sur un serveur Discord.
 
-Pour l'utiliser vous devez l'héberger chez vous. Pour cela installer Node puis entrer l'url du webhook dans le fichier 'config.json', installer les modules en tapant :
-```
+Pour l'utiliser, vous devez l'héberger chez vous. Pour cela, installez Node.js, puis installez les modules en tapant :
+```batch
 npm i
 ```
-
-et finalement lancer la à l'aide de la commande suivant :
+Dans le répertoire **config/**, il faut créer un fichier **config.json** en prenant exemple sur **config_sample.json** et écrire les arguments demandés :
+```json
+{
+  "pfp": "URL PROFILE PICTURE",
+  "username": "USERNAME"
+}
 ```
-node .
+
+Enfin, pour envoyer un message, il suffit de faire :
+```batch
+node server.js url <URL_WEBHOOK> "VOTRE MESSAGE"
 ```
