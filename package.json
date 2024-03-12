@@ -1,0 +1,24 @@
+{
+  "name": "message-anonyme",
+  "version": "1.0.0",
+  "description": "Envoie un message anonyment sur un serveur discord",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GatienFrenchDev/message-anonyme-discord.git"
+  },
+  "author": "Gatien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GatienFrenchDev/message-anonyme-discord/issues"
+  },
+  "homepage": "https://github.com/GatienFrenchDev/message-anonyme-discord#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "discord-webhook-node": "^1.1.8",
+    "express": "^4.17.1"
+  }
+}
